@@ -1,0 +1,91 @@
+body{
+    background-image: url(https://4kwallpapers.com/images/wallpapers/laptop-windows-11-3840x2160-10874.jpg);
+    background-size: cover;
+}
+
+#hd{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Poppins",sans-serif;
+    background-color: #1e1e1e;
+    color:white;
+    height: 60px;
+    margin:0px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+#back{
+    float: left;
+    background-color: #61dafb;
+    color: #1e1e1e;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial', sans-serif;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#back:hover{
+    background-color: rgb(38, 230, 255);
+}
+
+#box{
+    width: 1100px;
+    height:761px;
+    margin:auto;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Poppins",sans-serif;
+    color: white;
+}
+
+#textbox{
+        padding-top: 10px;
+        padding-left: 315px;
+        
+}
+
+#sub{
+    margin-top: 20px;
+    padding-left: 385px;
+}
+
+.in{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Poppins",sans-serif;
+}
+
+#txt{
+    height: 47px;
+    width:470px;
+}
+
+
+#Submit{
+    background-color: #61dafb;
+    color: white;
+    height: 50px;
+    width: 400px;
+}
+
+#Submit:hover{
+    background-color: #18dfd9;
+    cursor:pointer;
+}
+
+#imag{
+    height:600px ;
+    width:663px;
+    padding-left:240px;
+    margin-top: 20px;
+}
+
+body{
+    margin:0px;
+}

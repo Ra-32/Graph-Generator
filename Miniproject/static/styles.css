@@ -1,0 +1,428 @@
+/* Global Style Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Style */
+body {
+    background-color: #121212; /* Dark background */
+    color: #f5f5f5;           /* Light text */
+}
+
+/* Header Section */
+header {
+    background-color: #1e1e1e; /* Darker shade for the header */
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Logo Style */
+.logo a {
+    text-decoration: none;
+    color: #61dafb; /* Light blue accent for logo */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navigation Menu Style */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f5f5f5; /* Light text */
+    padding: 10px;
+    transition: color 0.3s ease;
+    margin-right: 750px;
+
+}
+
+nav ul li a:hover {
+    color: #61dafb; /* Light blue accent on hover */
+}
+
+/* Sign In Button Style */
+.signin-btn {
+    border: 1px solid #61dafb;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+.signin-btn:hover {
+    background-color: #61dafb;
+    color: #1e1e1e;
+}
+
+/* Call to Action Button Style */
+.cta-btn {
+    background-color: #61dafb;
+    color: #1e1e1e;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #5bb8e3; /* Slightly darker blue on hover */
+}
+/* Global Style Reset */
+/* Global Style Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Style */
+body {
+    background-color: #121212; /* Dark background */
+    color: #f5f5f5;           /* Light text */
+}
+
+/* Hero Section Style */
+.hero {
+    height: 100vh; /* Full height of the viewport */
+    background: url('https://blog.scientific-python.org/matplotlib/matplotlib-cyberpunk-style/figures/5.png') no-repeat center center/cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Dark overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    color: #f5f5f5;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+/* Headline Style */
+.headline {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    color: #61dafb; /* Light blue accent */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for readability */
+}
+
+/* Subheadline Style */
+.subheadline {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    color: #cccccc; /* Slightly lighter shade for subheadline */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Call to Action Button Style */
+.cta-btn {
+    background-color: #61dafb;
+    color: #1e1e1e;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cta-btn:hover {
+    background-color: #5bb8e3; /* Slightly darker blue on hover */
+    transform: translateY(-3px); /* Slight raise on hover */
+}
+/* Global Style Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Style */
+body {
+    background-color: #121212; /* Dark background */
+    color: #f5f5f5;           /* Light text */
+}
+
+/* Feature Section Style */
+.features {
+    padding: 80px 20px;
+    background-color: #1e1e1e; /* Darker background for feature section */
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+/* Section Title and Description */
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #61dafb; /* Light blue accent */
+}
+
+.section-description {
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+    color: #cccccc; /* Slightly lighter text for description */
+}
+
+/* Feature Grid Style */
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Responsive grid layout */
+    gap: 30px;
+    
+    width:2000px;
+    
+
+/* Feature Item Style */
+.feature-item {
+    background-color: #2e2e2e; /* Dark background for feature items */
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    
+}
+
+.feature-item:hover {
+    transform: translateY(-5px); /* Slightly raise the box on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Shadow effect */
+}
+
+/* Feature Image */
+.feature-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover; /* Crop image to fit inside */
+}
+
+/* Feature Content */
+.feature-content {
+    padding: 20px;
+}
+
+.feature-title {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    color: #61dafb; /* Light blue accent */
+}
+
+.feature-description {
+    font-size: 1rem;
+    color: #cccccc;
+    line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2rem;
+        ;
+    }
+
+    .section-description {
+        font-size: 1rem;
+    }
+
+    .feature-title {
+        font-size: 1.4rem;
+    }
+}
+/* Global Style Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Style */
+body {
+    background-color: #121212; /* Dark background */
+    color: #f5f5f5;           /* Light text */
+}
+
+/* Testimonials Section Style */
+.testimonials {
+    padding: 80px 20px;
+    background-color: #1e1e1e; /* Darker background for testimonials section */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Section Title and Description */
+.section-title {
+    border: green solid 2px;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #61dafb; /* Light blue accent */
+    padding-left: 550px;
+}
+
+.section-description {
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+    color: #cccccc; /* Slightly lighter text for description */
+}
+
+/* Testimonial Grid Style */
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Responsive grid layout */
+    gap: 30px;
+}
+
+/* Testimonial Item Style */
+.testimonial-item {
+    background-color: #2e2e2e; /* Dark background for testimonial items */
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.testimonial-item:hover {
+    transform: translateY(-5px); /* Slightly raise the box on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Shadow effect */
+}
+
+/* Testimonial Image */
+.testimonial-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover; /* Crop image to fit inside */
+}
+
+/* Testimonial Content */
+.testimonial-content {
+    padding: 20px;
+}
+
+.user-name {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: #61dafb; /* Light blue accent */
+}
+
+.user-quote {
+    font-size: 1rem;
+    color: #cccccc;
+    line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .section-description {
+        font-size: 1rem;
+    }
+
+    .user-name {
+        font-size: 1.2rem;
+    }
+}
+/* Global Style Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Footer Style */
+.footer {
+    background-color: #1e1e1e; /* Dark background for footer */
+    color: #f5f5f5;            /* Light text */
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Footer Content Style */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allows items to wrap in smaller screens */
+    margin-bottom: 20px;
+}
+
+/* Footer Section Style */
+.footer-section {
+    flex: 1;
+    min-width: 200px; /* Ensures minimum width for each section */
+    margin: 0 20px;
+}
+
+/* Social Icons Style */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-icon {
+    margin: 0 10px;
+    color: #61dafb; /* Light blue accent */
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #ffffff; /* Change color on hover */
+}
+
+/* Footer Bottom Style */
+.footer-bottom {
+    border-top: 1px solid #333333; /* Slightly lighter line for separation */
+    padding-top: 20px;
+}
+
+/* Copyright Text */
+.footer-bottom p {
+    font-size: 0.9rem;
+    color: #cccccc; /* Slightly lighter text for copyright */
+}
